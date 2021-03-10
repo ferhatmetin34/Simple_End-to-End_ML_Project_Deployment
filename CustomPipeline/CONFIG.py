@@ -1,9 +1,4 @@
 PATH_TO_DATASET = "data_cleaned.csv"
-OUTPUT_SCALER_PATH = 'scaler.pkl'
-OUTPUT_MODEL_PATH = 'lightgbm_regressor.pkl'
-OUTPUT_COUNT_ENCODER= "count_encoder.pkl"
-OUTPUT_MEAN_ENCODER="mean_encoder.pkl"
-OUTPUT_ONEHOT_ENCODER="onehot_encoder.pkl" 
 COLUMNS_TO_DROP= ['brut_m2', 'floor', 'const_type'] 
 COUNT_ENCODE= ["location",'room', 'age', 'heating']
 ONEHOT_ENCODE= ["furniture","in_site"]
